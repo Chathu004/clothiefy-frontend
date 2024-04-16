@@ -27,62 +27,7 @@ export default function Navigation() {
       <div className="nav-cart-count">0</div>
     </div>
    </div>
-
-
-
-  //  17.31
-   
-
-
-    
    
   )
 }
 
-
-
-// import React from 'react';
-// import { Grid, AppBar, Toolbar, IconButton, Typography, Button, Menu, MenuItem } from '@mui/material';
-// import MenuIcon from '@mui/icons-material/Menu';
-
-// export default function Navigation() {
-//   const [anchorEl, setAnchorEl] = React.useState(null);
-
-//   const handleClick = (event) => {
-//     setAnchorEl(event.currentTarget);
-//   };
-
-//   const handleClose = () => {
-//     setAnchorEl(null);
-//   };
-
-//   return (
-//     <AppBar position="static">
-//       <Toolbar>
-//         <IconButton edge="start" color="inherit" aria-label="menu" onClick={handleClick}>
-//           <MenuIcon />
-//         </IconButton>
-//         <Menu
-//           anchorEl={anchorEl}
-//           open={Boolean(anchorEl)}
-//           onClose={handleClose}
-//           onClick={handleClose}
-//         >
-//           <MenuItem>Home</MenuItem>
-//           <MenuItem>Women</MenuItem>
-//           <MenuItem>Men</MenuItem>
-//           <MenuItem>Kids</MenuItem>
-//           <MenuItem>hi</MenuItem>
-//           <MenuItem>Stores</MenuItem>
-//           <MenuItem>Sign In</MenuItem>
-//           <MenuItem>Create Account</MenuItem>
-//         </Menu>
-//         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-//           Your Company
-//         </Typography>
-//         <Button color="inherit">Sign In</Button>
-//         <Button color="inherit">Create Account</Button>
-//       </Toolbar>
-//     </AppBar>
-//   );
-// }
