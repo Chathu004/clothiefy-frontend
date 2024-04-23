@@ -1,11 +1,12 @@
 import './App.css'
 import Navigation from './customer/components/Navigation'
 import { BrowserRouter,Routes,Route } from 'react-router-dom';
-import { Shop } from '@mui/icons-material';
+import Shop  from './pages/Shop';
 import ShopCategory from './pages/ShopCategory';
 import Product from './pages/Product';
 import Cart from './pages/Cart';
 import LoginSignUp from './pages/LoginSignUp';
+import Footer from './Footer/Footer';
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
         <Route path='/cart' element={<Cart/>}/>
         <Route path='/login' element={<LoginSignUp/>}/>
       </Routes>
+      <Footer/>
       
       </BrowserRouter>
      
