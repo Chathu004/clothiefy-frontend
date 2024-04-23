@@ -1,9 +1,9 @@
 
 import { Fragment, useState } from 'react'
-import logo from '../../assets/logo.png'
+// import logo from '../../assets/logo.png'
+import logo from '../../assets/PANDORA 4.png'
 import cart_icon from '../../assets/cart_icon.png'
 import './Navigation.css'
-// import { Link } from '@mui/material';
 import { Link } from 'react-router-dom'
 
 
@@ -15,7 +15,7 @@ export default function Navigation() {
    <div className="navbar">
     <div className="nav-logo">
       <img src={logo} alt="" />
-      <p>CLOTHY</p>
+      <p>PANDORA</p>
     </div>
     <ul className="nav-menu">
       <li onClick={()=>{setMenu("shop")}}><Link style={{textDecoration:'none'}} to='/'>Shop</Link>{menu==="shop"?<hr/>:<></>}</li>
