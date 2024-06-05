@@ -1,6 +1,6 @@
 .head{
     height: 100vh;
-    background: linear-gradient(180deg, #fde1ff,#e1ffea22 100%);
+    background: linear-gradient(180deg, #ffc2bf,#e1ffea22 100%);
     display: flex;
 }
 .head-left{

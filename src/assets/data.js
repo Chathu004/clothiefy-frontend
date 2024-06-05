@@ -2,6 +2,7 @@ import p1_img from './product_1.png'
 import p2_img from './product_2.png'
 import p3_img from './product_3.png'
 import p4_img from './product_4.png'
+import pink from './pink.png'
 
 let data_product = [
   {
@@ -13,7 +14,7 @@ let data_product = [
   },
   {id:2,
     name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-    image:p2_img,
+    image:pink,
     new_price:85.00,
     old_price:120.50,
   },
@@ -25,10 +26,17 @@ let data_product = [
   },
   {id:4,
     name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+    image:p2_img,
+    new_price:100.00,
+    old_price:150.00,
+  },
+  {id:5,
+    name:"Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
     image:p4_img,
     new_price:100.00,
     old_price:150.00,
   },
+  
 ];
 
 export default data_product;

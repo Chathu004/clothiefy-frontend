@@ -32,7 +32,7 @@ import p31_img from "./product_31.png";
 import p32_img from "./product_32.png";
 import p33_img from "./product_33.png";
 import p34_img from "./product_34.png";
-import p35_img from "./product_35.png";
+import p35_img from "./product_35 .png";
 import p36_img from "./product_36.png";
 
 let all_product = [
